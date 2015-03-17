@@ -1,7 +1,5 @@
 package romain
 
-import scala.collection.immutable.SortedMap
-
 object Romain {
     
     val symbol = Vector("I", "V", "X", "L", "C", "D", "M")
