@@ -34,6 +34,12 @@ class RomainSpec extends Specification {
         "Return MCDXCVII for 1497" >> {
             Romain.fromArabic(1497) mustEqual "MCDXCVII"
         }
+        "Return MMMCMXCIX for 3999" >> {
+            Romain.fromArabic(3999) mustEqual "MMMCMXCIX"
+        }
+        "Return Exception for 4000" >> {
+            Romain.fromArabic(4000) must throwA[IllegalArgumentException]
+        }
     }
     
 }
