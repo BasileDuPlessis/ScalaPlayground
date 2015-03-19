@@ -15,4 +15,4 @@ libraryDependencies ++= Seq(
   
 scalacOptions ++= Seq("-feature", "-language:implicitConversions","-language:postfixOps")
 
-mainClass in (Compile,run) := Some("fizzbuzz.Fizzbuzz")
+//mainClass in (Compile,run) := Some("fizzbuzz.Fizzbuzz")
